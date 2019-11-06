@@ -60,7 +60,41 @@ main .item {
 	border: 1px solid green;
 	margin: 1em;
 }
+.widget-container {
+	display: flex;
+	justify-content: center;
+}
+.temp{
+	font-size:3em;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+}
+.wind {
+	font-size: 20px;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.feelsLike{
+	font-size: 20px;
+	color: white;
+	display: flex;
+	justify-content: center;
 
+}
+.time  {
+	font-size: 20px;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+p{
+	font-size: 20px;
+	color: white;
+	font-family: "Open Sans, sans-serif";
+}
 footer {
 	flex: 0.8;
 	border: 1px solid purple;
